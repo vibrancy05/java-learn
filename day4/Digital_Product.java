@@ -6,6 +6,12 @@ public class Digital_Product extends  Product {
     {
         System.out.println("虚拟商品子类无参构造方法");
     }
+
+    @Override
+    public void sendProduct() {
+        System.out.println("正在发送虚拟商品密钥...");
+    }
+
     public Digital_Product(String name, double price, String secretKey)
     {
         super(name, price);

@@ -5,6 +5,12 @@ public class Entity_Product extends  Product {
     public Entity_Product() {
         System.out.println("实体商品子类无参构造方法");
     }
+
+    @Override
+    public void sendProduct() {
+        System.out.println("正在发送实体商品...");
+    }
+
     public Entity_Product(String name, double price, double weight) {
         super(name, price);
         this.weight = weight;

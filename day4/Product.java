@@ -1,12 +1,16 @@
 package day4;
 //演示面向对象中继承思想(父类)
-public class Product {
+public abstract class Product {
     private String name;
     private double price;
 
     public Product() {
         System.out.println("父类无参构造方法");
     }
+
+    public abstract void sendProduct() ;
+
+
 
     public Product(String name, double price) {
         System.out.println("父类有参构造方法");
