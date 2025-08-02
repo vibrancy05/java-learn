@@ -1,0 +1,3 @@
+字符输出流测试
+hello world java
+ab
