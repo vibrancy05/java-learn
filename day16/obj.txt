@@ -1,0 +1,16 @@
+Student
+name=李四
+age=20
+score=80.0
+Student
+name=张三
+age=18
+score=90.0
+Student
+name=张三
+age=19
+score=100.0
+Student
+name=李四
+age=20
+score=80.0
